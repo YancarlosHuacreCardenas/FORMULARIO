@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('imagen/imagen1.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    border-radius: 10px;
+  }
+
+
+  .container .options {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container .option {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .container .option input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  .container form {
+    text-align: left;
+  }
+
+  .container form input[type="text"],
+  .container form input[type="text"],
+  .container form input[type="number"],
+  .container form input[type="email"],
+  .container form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .container form .forgot-password {
+    color: blue; /* Color del enlace "¿Olvidó su contraseña?" */
+  }
+
+  .container form .terms-and-conditions {
+    margin-top: 10px;
+  }
+
+  .container form .terms-and-conditions input {
+    margin-right: 5px;
+  }
+
+  .container form .register-button {
+    background-color: red; /* Color de fondo del botón "REGISTRARME" */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .left-image {
+    float: left; /* Alinea la imagen a la izquierda */
+    width: 30%; /* Ancho de la imagen */
+    margin-right: 20px; /* Margen derecho para separar la imagen del formulario */
+}
+
+  .styled-input {
+    width: 100%; /* Ancho completo */
+    max-width: 70%; /* Establece un ancho máximo si lo deseas */
+    margin: 10px auto; /* Ajusta el margen para centrar el elemento */
+    padding: 10px; /* Agrega un relleno para mejorar la apariencia */
+}
